@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ParakeetActivity!</string>
+    <string name="app_name">Parakeet</string>
+<color name="Green">#FF006600</color>
+<color name="Red">#FFFF0000</color>
+<color name="White">#FFFFFF</color>
+</resources>

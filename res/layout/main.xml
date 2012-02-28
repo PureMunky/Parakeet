@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:hapticFeedbackEnabled="true">
+<Button android:layout_width="50dip" android:layout_height="wrap_content" android:text="-" android:id="@+id/btnToggle" android:onClick="btnToggle_Click" android:layout_y="100dip" android:layout_x="10dip" android:textSize="8pt"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/btnDollarsOne" android:text="$1" android:onClick="btnDollarsOne_Click" android:layout_y="100dip" android:layout_width="75dip" android:layout_x="70dip" android:textSize="8pt"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/btnDollarsFive" android:text="$5" android:onClick="btnDollarsFive_Click" android:layout_y="100dip" android:layout_width="75dip" android:layout_x="150dip" android:textSize="8pt"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/btnDollarsTen" android:text="$10" android:onClick="btnDollarsTen_Click" android:layout_y="100dip" android:layout_width="75dip" android:layout_x="230dip" android:textSize="8pt"></Button>
+
+<TextView android:id="@+id/txtMainDisplay" android:text="$0" android:layout_height="wrap_content" android:layout_y="40dip" android:textSize="10pt" android:layout_width="fill_parent" android:layout_x="0dip"></TextView>
+<TextView android:id="@+id/TextView01" android:text="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="0dip" android:singleLine="true" android:textSize="4pt"></TextView>
+<TextView android:id="@+id/TextView02" android:text="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="10dip" android:singleLine="true" android:textSize="4pt"></TextView>
+<TextView android:id="@+id/TextView03" android:text="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="20dip" android:textSize="4pt"></TextView>
+<TextView android:id="@+id/TextView04" android:text="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="0dip" android:layout_x="200dip" android:textSize="4pt"></TextView>
+<TextView android:id="@+id/TextView05" android:text="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="200dip" android:layout_y="10dip" android:textSize="4pt"></TextView>
+<TextView android:id="@+id/TextView06" android:text="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="20dip" android:layout_x="200dip" android:textSize="4pt"></TextView>
+<ScrollView
+	android:id="@+id/ScrollView01"
+	android:layout_height="220dip"
+	android:layout_width="fill_parent"
+	android:layout_x="0dip"
+	android:layout_y="150dip">
+	<TextView android:id="@+id/TextView07" android:text="@+id/TextView07"  android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+</ScrollView>
+<TextView android:text="@+id/TextView08" android:id="@+id/TextView08" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_x="0dip" android:textColor="@color/Red" android:layout_y="300dip" android:visibility="invisible"></TextView>
+
+<Button android:layout_height="wrap_content" android:id="@+id/btnSave" android:layout_width="fill_parent" android:layout_x="0dip" android:onClick="btnSave_Click" android:text="Exit" android:layout_y="380dip"></Button>
+<TextView android:id="@+id/TextView09" android:text="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="80dip" android:visibility="invisible"></TextView>
+</AbsoluteLayout>
+
+</LinearLayout>
