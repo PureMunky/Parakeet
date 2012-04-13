@@ -54,7 +54,7 @@ public class MoneyEntry {
 			StrYear = "0" + StrYear;
 		}
 		
-		if(!this.OccMonth.equalsIgnoreCase("xx")) {
+		if(!this.OccMonth.equalsIgnoreCase("00")) {
 			m = new Date().getMonth();
 		}else{
 			m = TimeStamp.getMonth();
@@ -66,7 +66,7 @@ public class MoneyEntry {
 			d = TimeStamp.getDate();
 		}
 		
-		if(!this.OccYear.equalsIgnoreCase("xx")) {
+		if(!this.OccYear.equalsIgnoreCase("00")) {
 			y = new Date().getYear();
 		}else{
 			y = TimeStamp.getYear();

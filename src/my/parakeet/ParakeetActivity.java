@@ -70,10 +70,10 @@ public class ParakeetActivity extends Activity {
         this.btnToggle = (TextView) findViewById(R.id.btnToggle);
         this.btnSave = (TextView) findViewById(R.id.btnSave);
         
-//        LoadSampleData();
-//        WriteXML();
+		LoadSampleData();
+		//WriteXML();
 		
-		ReadXML();    
+		//ReadXML();    
 		LoadData();
 		CalculateDailyAmount();
     }
